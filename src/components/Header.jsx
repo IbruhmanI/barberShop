@@ -2,8 +2,8 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>
-      awdawd
+    <div className="container">
+      awdouabwidla
     </div>
   )
 }
