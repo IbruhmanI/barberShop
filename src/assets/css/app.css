@@ -1,10 +1,49 @@
-body{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Inter, sans-serif;
 }
-.container{
+
+.container {
   margin: 0 auto;
-  max-width: 1140px;
+  max-width: 1280px;
   width: 95%;
+}
+
+#header {
+  background: rgba(44, 44, 44, 1);
+  padding: 15px 0;
+  width: 100%;
+  position: fixed;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.header>div {
+  display: flex;
+  gap: 20px;
+}
+
+.header h3 {
+  padding: 10px;
+  background: white;
+  color: rgba(44, 44, 44, 1);
+  border-radius: 5px;
+}
+
+.header a:hover {
+  opacity: 0.5;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  height: fit-content;
+  transition: opacity 0.15s;
 }
