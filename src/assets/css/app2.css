@@ -1,0 +1,77 @@
+#services {
+    background: rgb(44, 44, 44);
+    padding: 60px 0 80px;
+    color: white;
+}
+.services h4{
+    font-weight: 700;
+}
+.services-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.services-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.service-btn {
+    font-size: 48px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .5s;
+    position: relative;
+}
+.service-btn::before {
+    content: '';
+    height: 1px;
+    width: 0%;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    transition: .5s;
+}
+.service-btn:hover::before {
+    content: '';
+    height: 1px;
+    width: 100%;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    transition: .5s;
+}
+.services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.service {
+    padding: 20px;
+    border: 1px solid rgba(65, 65, 65, 1);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-numb {
+    font-weight: 700;
+}
+.service-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.service-desc {
+    color: rgba(86, 86, 86, 1);
+    font-size: 16px;
+    font-weight: 700;
+}
+.service-price {
+    font-size: 32px;
+    font-weight: 700;
+}
+.serv-btn {
+    padding: 20px 0;
+}
