@@ -1,10 +1,11 @@
 import React from 'react'
+import FirstCut from './FirstCut'
 
 const Main = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <FirstCut/>
+    </>
   )
 }
 

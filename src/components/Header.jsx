@@ -13,7 +13,7 @@ const Header = () => {
             <NavLink to={'/about'}>О нас</NavLink>
           </div>
           <a href="tel:+996555123456">
-            <h3>+996 (555) 12-34-56</h3>
+            <button className='btn'>+996 (555) 12-34-56</button>
           </a>
         </div>
       </div>
