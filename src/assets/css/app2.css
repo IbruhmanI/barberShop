@@ -170,15 +170,19 @@
 #discount {
     padding: 10px;
 }
+.disc-cont {
+    max-width: 1400px;
+}
 .discount {
     display: flex;
+    justify-content: space-between;
+    gap: 20px;
     padding: 10px;
     border-radius: 4px;
     background: rgb(173, 174, 165);
 }
 .disc-img {
-    width: 25%;
-    height: auto;
+   width: 400px;
 }
 .disc-img img {
     height: 100%;
@@ -187,7 +191,7 @@
     border-radius: 4px;
 }
 .discount-info {
-    padding: 40px 0 40px 20px;
+    padding: 40px 0 40px;
     display: flex;
     flex-direction: column;
 }
