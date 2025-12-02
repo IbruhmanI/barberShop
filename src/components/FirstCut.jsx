@@ -1,6 +1,7 @@
 import React from 'react'
 import img1 from '../assets/image/Main-pic.webp'
 import img2 from '../assets/image/main-pic2.webp'
+import { MdArrowOutward } from "react-icons/md";
 
 const FirstCut = () => {
   return (
@@ -16,7 +17,7 @@ const FirstCut = () => {
               <img src={img2} alt="" />
               <div>
                 <h3>Скидка на первую стрижку у нас — 15%</h3>
-                <button className='btn' >Записаться</button>
+                <button className='btn' >Записаться<MdArrowOutward size={24}/></button>
               </div>
             </div>
           </div>
