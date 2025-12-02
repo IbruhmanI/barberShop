@@ -151,8 +151,10 @@ export const Services = () => {
                   {selectedService.details.map((detail) => (
                     <div key={detail.id} className="service">
                       <p className="service-numb">0{detail.id}</p>
-                      <h3 className="service-title">[{detail.title}]</h3>
-                      <p className="service-desc">{detail.descr}</p>
+                      <div className="service-txt">
+                        <h3 className="service-title">[{detail.title}]</h3>
+                        <p className="service-desc">{detail.descr}</p>
+                      </div>
                       <span className="service-price">{detail.price} С.</span>
                     </div>
                   ))}
