@@ -167,3 +167,45 @@
 .slick-dots li.slick-active button:before {
   color: grey;
 }
+#discount {
+    padding: 10px;
+}
+.discount {
+    display: flex;
+    padding: 10px;
+    border-radius: 4px;
+    background: rgb(173, 174, 165);
+}
+.disc-img {
+    width: 25%;
+    height: auto;
+}
+.disc-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.discount-info {
+    padding: 40px 0 40px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.discount-info h4 {
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: -0.04em;
+    color: white;
+}
+.discount-info span{
+    color: rgba(206, 206, 201, 1);
+    font-weight: 700;
+}
+.disc-btn {
+    margin: 20px 0 0;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
