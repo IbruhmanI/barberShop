@@ -4,8 +4,6 @@
   box-sizing: border-box;
   font-family: Inter, sans-serif;
 }
-body{
-}
 
 .container {
   margin: 0 auto;
@@ -18,6 +16,7 @@ body{
   padding: 15px 0;
   width: 100%;
   position: fixed;
+  border-bottom: 1px solid rgba(24, 24, 24, 1);
 }
 
 .header {
@@ -52,12 +51,62 @@ body{
   text-decoration: none;
   height: fit-content;
   transition: opacity 0.15s;
+  
 }
-#first-cut{
+
+#first-cut {
   color: white;
   padding-top: 100px;
   background: rgba(44, 44, 44, 1);
 }
-.fist-cut h1{
-  font-size: ;
+
+.first-cut h1 {
+  font-size: 64px;
+}
+
+.first-cut > :nth-child(1) {
+  display: flex;
+  gap: 20px;
+  padding: 10px 0 40px;
+  font-weight: 700;
+}
+.first-cut > div:nth-of-type(2){
+  background: url('../image/Main-pic.webp');
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+.first-cut h1 {
+  letter-spacing: -4px;
+}
+
+.first-cut p {
+  flex-shrink: 0;
+}
+
+.first-cut-discount {
+  position: absolute;
+  width: fit-content;
+  display: flex;
+  background-color: rgb(173, 174, 165);
+  right: 30px;
+  bottom: 20px;
+  padding: 10px;
+  gap: 30px;
+  border-radius: 5px;
+}
+.first-cut-discount>div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.first-cut-discount h3{
+  font-size: 24px;
+}
+.first-cut img{
+  width: 45%;
+}
+.first-cut .btn{
+  width: 100%;
 }
