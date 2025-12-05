@@ -3,6 +3,7 @@ import FirstCut from './FirstCut'
 import { Services } from './Services'
 import { Gallery } from './Gallery'
 import { Discount } from './Discount'
+import Benefits from './Benefits'
 
 const Main = () => {
   return (
@@ -11,6 +12,7 @@ const Main = () => {
       <Services/>
       <Gallery/>
       <Discount/>
+      <Benefits/>
     </>
   )
 }

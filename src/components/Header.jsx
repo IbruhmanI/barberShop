@@ -9,7 +9,7 @@ const Header = () => {
           <NavLink to='/'><h1>BARBER</h1></NavLink>
           <div>
             <NavLink to='/blog'>Блог</NavLink>
-            <NavLink to={'/about'}>Вакансий</NavLink>
+            <NavLink to={'/job'}>Вакансий</NavLink>
             <NavLink to={'/about'}>О нас</NavLink>
           </div>
           <a href="tel:+996555123456">

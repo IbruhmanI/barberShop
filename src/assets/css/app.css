@@ -122,3 +122,95 @@
   justify-content: space-between;
   cursor: pointer;
 }
+
+#benefits {
+  overflow: hidden;
+  padding: 60px 0 80px;
+}
+
+.benefits>div {
+  display: grid;
+  position: relative;
+  z-index: 1;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  padding: 20px 0;
+  transition: 0.15s;
+  font-weight: 700;
+  border-top: 1px solid rgb(186, 186, 186);
+}
+
+.benefits-img {
+  position: absolute;
+  top: -70%;
+  right: 0;
+  height: 100px;
+  z-index: 99;
+}
+
+.benefits-img>img {
+  height: 300px;
+  padding: 10px;  
+  z-index: 99;
+  background-color: rgba(44, 44, 44, 1);
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.15s;
+  position: relative;
+}
+
+
+.benefits>div:hover img {
+  opacity: 1;
+}
+
+.benefits h1 {
+  font-size: 32px;
+}
+
+.benefits>p {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.benefits-text {
+  color: rgb(205, 205, 205);
+  transition: 0.15s;
+}
+
+.benefits>div:hover {
+  color: white;
+}
+
+.benefits>div:hover .benefits-text {
+  color: white;
+}
+
+.benefits>div::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 100vw;
+  height: 100%;
+  transform: translateX(-50%);
+  background: rgb(173, 174, 165);
+  opacity: 0;
+  z-index: -1;
+  transition: 0.15s;
+}
+
+.benefits>div:hover::after {
+  opacity: 1;
+}
+
+.benefits button {
+  width: 100%;
+  background: rgb(173, 174, 165);
+  padding: 15px 0;
+  color: white;
+  margin-top: 20px;
+}
+
+.benefits button:hover {
+  background: rgba(173, 174, 165, 0.664);
+}
